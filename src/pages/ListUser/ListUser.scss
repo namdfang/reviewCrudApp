@@ -1,0 +1,19 @@
+@import "../../assets/scss/variables";
+
+.user__table {
+    background-color: #dfe2e6;
+}
+.actions{
+    width: 30%;
+}
+.btn__actions{
+    background-color: #0d6efd33;
+    &--delete:hover,&--delete:focus{
+        background-color: #d9432f;
+        color:$color_white;
+    }
+    &--edit:hover{
+        background-color: #ff8d00;
+        color:$color_white;
+    }
+}
